@@ -26,15 +26,18 @@ public class Main {
 		videos1.id= 4;
 		videos1.videoName= "van kedisi";
 		videos1.videoDesc= "duvardan duvara atlayan kedi";
+		videos1.totalLike=100000000;
 		
 		Videos videos2 =  new Videos();
 		videos2.id= 5;
 		videos2.videoName= "beþiktaþ maçý";
 		videos2.videoDesc= "beþiktaþ 5 fenerbahçe 0";
-		
+		videos2.totalLike=1000000111;
 		PhotosManager photosManager =  new PhotosManager();
 		photosManager.addtoPhotoAndVideo(photos3,videos1);
 		photosManager.addtoPhotoAndVideo(photos2,videos2);
+		photosManager.likePhotoAndVideo(photos3, videos1);
+		photosManager.likePhotoAndVideo(photos2, videos2);
 		
 		System.out.println(photos1.photoName);
 		

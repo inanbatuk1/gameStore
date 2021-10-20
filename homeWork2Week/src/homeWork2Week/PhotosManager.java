@@ -9,4 +9,10 @@ public class PhotosManager {
 		
 	}
 	
+	public void likePhotoAndVideo(Photos photo,Videos videos) {
+		
+		System.out.println("xxx kiþisi beðendi "+photo.totalLike+"\n"+videos.totalLike);
+		
+	}
+	
 }
