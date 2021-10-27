@@ -13,7 +13,7 @@ public class Main {
 	public static void main(String[] args) throws RemoteException {
 		Gamer gamer1 = new Gamer();
 		gamer1.setGamerId(1);
-		gamer1.setGamerFirstName("kübra");
+		gamer1.setGamerFirstName("inan");
 		gamer1.setGamerLastName(".....");
 		gamer1.setDateOfBirth(1994);
 		gamer1.setNationalityId(1111111111L);
